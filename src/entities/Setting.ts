@@ -4,10 +4,10 @@ import { v4 as uuid } from "uuid"
 @Entity("settings")
 class Setting {
   @PrimaryColumn()
-  id: String
+  id: string
 
   @Column()
-  username: String
+  username: string
 
   @Column()
   chat: Boolean
